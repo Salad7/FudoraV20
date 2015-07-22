@@ -12,6 +12,7 @@ package com.example.pc_user.fudora;
         import android.widget.ArrayAdapter;
         import android.widget.Button;
         import android.widget.EditText;
+        import android.widget.ImageView;
         import android.widget.ListView;
         import android.widget.RelativeLayout;
         import android.widget.Spinner;
@@ -26,12 +27,16 @@ public class   JavaFragment extends Fragment {
     Toast intro;
     EditText[] words;
     String[] textArray = {"Shrimp","Tacos","Chicken","Turkey"};
+    Integer[] imageArray = {R.drawable.shrimp, R.drawable.taco, R.drawable.chicken, R.drawable.turkey} ;
 
     ListView l;
     RelativeLayout manLayout,voiceLayout;
     Button voiceSearch;
     Button manualSearch;
     TextView manual_text_hint;
+    TextView text;
+    ImageView imageView;
+
     Spinner spinner;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -76,9 +81,12 @@ public class   JavaFragment extends Fragment {
             }
         });
 
+        text = (TextView) v.findViewById(R.id.spinnerTextView);
+        imageView = (ImageView) v.findViewById(R.id.spinnerImages);
         spinner = (Spinner) v.findViewById(R.id.spinner);
-        ArrayAdapter adapterS = ArrayAdapter.createFromResource(v.getContext(),R.array.Spinner_Items,android.R.layout.simple_spinner_item);
-        spinner.setAdapter(adapterS);
+        //ArrayAdapter adapterS = ArrayAdapter.createFromResource(v.getContext(),R.array.Spinner_Items,android.R.layout.simple_spinner_item);
+        ArrayAdapter adapter = new SpinnerAdapter(v.getContext(), R.layout.spinner_value_layout, textArray, imageArray);
+        spinner.setAdapter(adapter);
 
        //ArrayAdapter<String> adapter = new ArrayAdapter<String>(v.getContext(),android.R.layout.simple_list_item_1,test);
        //Works with String, not with EditText

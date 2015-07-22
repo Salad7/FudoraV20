@@ -36,7 +36,7 @@
     <string name="cancel_btn">Cancel</string>
     <string name="quick_start">Quick Start Search!</string>
     <string name="into_toast">Enter up to four words to search for</string>
-    <string name ="voice_search">Voice Search</string>
+    <string name ="voice_search">Voice</string>
     <string name ="manual_search">Search</string>
     <string name ="man_txt">Manual Search</string>
     
@@ -47,31 +47,7 @@
 
 
     </string-array>
-
-    <?xml version="1.0" encoding="utf-8"?>
-    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-
-            <TextView
-                android:id="@+id/spinnerTextView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-            <ImageView
-                android:id="@+id/spinnerImages"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:contentDescription="@string/app_name"/>"
-
-        </TableRow>
-
-    </TableLayout>
+    <string name="title_activity_maps">Map</string>
 
 
 

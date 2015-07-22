@@ -39,34 +39,35 @@
 
       <LinearLayout
           android:orientation="horizontal"
-          android:layout_width="wrap_content"
+          android:layout_width="fill_parent"
           android:layout_height="wrap_content"
           android:layout_alignParentBottom="true"
           android:layout_alignParentLeft="true"
           android:layout_alignParentStart="true"
           android:layout_alignParentRight="true"
-          android:layout_alignParentEnd="true">
+          android:layout_alignParentEnd="true"
+          android:id="@+id/linearLayout">
 
       <Button
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="@string/voice_search"
-          android:drawableLeft="@drawable/arrownext"
+          android:text="Voice"
+          android:drawableLeft="@drawable/abc_ic_voice_search_api_mtrl_alpha"
           android:id="@+id/switch_voice"
           android:layout_alignParentBottom="true"
           android:layout_alignParentRight="true"
-          android:layout_alignParentEnd="true" />
+          android:layout_alignParentEnd="true"
+          android:layout_weight="1" />
 
-      <Button
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:text="@string/manual_search"
-          android:id="@+id/search_man"
-          android:layout_alignParentBottom="true"
-          android:layout_alignParentLeft="true"
-          android:layout_alignParentStart="true"
-          android:layout_toStartOf="@+id/switch_voice"
-          android:layout_toLeftOf="@+id/switch_voice" />
+          <Button
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/manual_search"
+              android:id="@+id/search_man"
+              android:layout_above="@+id/linearLayout"
+              android:layout_alignRight="@+id/manual_txt"
+              android:layout_alignEnd="@+id/manual_txt"
+              android:layout_weight="1" />
 
       </LinearLayout>
 
