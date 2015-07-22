@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/xx"
+    android:background="#673AB7"
+
+    >
+
+  <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:id="@+id/manualLayout"
+    >
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:text="@string/man_txt"
+          android:id="@+id/manual_txt"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="58dp"
+          android:clickable="true" />
+     <!-- <ListView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/manualListView"
+          android:layout_alignParentTop="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="117dp"
+          android:windowSoftInputMode="adjustPan"
+          android:descendantFocusability="beforeDescendants"
+          />
+          !-->
+
+
+      <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentEnd="true">
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/voice_search"
+          android:drawableLeft="@drawable/arrownext"
+          android:id="@+id/switch_voice"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentEnd="true" />
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/manual_search"
+          android:id="@+id/search_man"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true"
+          android:layout_toStartOf="@+id/switch_voice"
+          android:layout_toLeftOf="@+id/switch_voice" />
+
+      </LinearLayout>
+
+      <Spinner
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/spinner"
+          android:layout_below="@+id/manual_txt"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="53dp" />
+
+  </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/voiceLayout"
+        android:visibility="gone"
+        >
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manual Search"
+            android:drawableRight="@drawable/arrowback"
+            android:id="@+id/button3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/one_user"
+    android:title="One user"
+/>
+    <item
+        android:id="@+id/two_user"
+        android:title="Two user"
+        />
+    <item
+        android:id="@+id/three_user"
+        android:title="Three user"
+        />
+    <item
+        android:id="@+id/four_user"
+        android:title="Four user"
+        />
+    <item
+        android:id="@+id/five_user"
+        android:title="Five user"
+        />
+    <item
+        android:id="@+id/six_user"
+        android:title="Six user"
+        />
+</menu>
