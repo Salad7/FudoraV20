@@ -15,8 +15,9 @@ public class Home extends FragmentActivity implements ActionBar.TabListener , Ph
     ActionBar actionbar;
     ViewPager viewpager;
     FragmentPageAdapter ft;
+    FragmentTransaction transaction;
     public static final String Key = "Custom";
-
+     Integer[] readThis = {R.id.editText,R.id.purposeid,R.id.numberid,R.id.addressid,R.id.costid,R.id.phoneid};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +43,8 @@ public class Home extends FragmentActivity implements ActionBar.TabListener , Ph
         actionbar.addTab(actionbar.newTab().setIcon(R.drawable.eye).setTabListener(this));
         actionbar.addTab(actionbar.newTab().setIcon(R.drawable.settings).setTabListener(this));
         actionbar.addTab(actionbar.newTab().setIcon(R.drawable.account2).setTabListener(this));
+
+
 
         viewpager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 

@@ -2,6 +2,7 @@ package com.example.pc_user.fudora;
 
 
         import android.content.Context;
+        import android.content.Intent;
         import android.os.Bundle;
         import android.support.v4.app.Fragment;
         import android.support.v4.app.ListFragment;
@@ -33,6 +34,7 @@ public class   JavaFragment extends Fragment {
     RelativeLayout manLayout,voiceLayout;
     Button voiceSearch;
     Button manualSearch;
+    Button searchWithMan;
     TextView manual_text_hint;
     TextView text;
     ImageView imageView;
@@ -48,10 +50,6 @@ public class   JavaFragment extends Fragment {
         voiceLayout = (RelativeLayout) v.findViewById(R.id.voiceLayout);
 
 
-        //l = (ListView) v.findViewById(R.id.manualListView);
-//        words[0] = ed; Crash here
-//        words[1] = ed2; Crash here
-//        words[2] = ed3; Crash here
 
         voiceSearch = (Button) v.findViewById(R.id.switch_voice);
         voiceSearch.setOnClickListener(new View.OnClickListener() {
@@ -88,9 +86,16 @@ public class   JavaFragment extends Fragment {
         ArrayAdapter adapter = new SpinnerAdapter(v.getContext(), R.layout.spinner_value_layout, textArray, imageArray);
         spinner.setAdapter(adapter);
 
-       //ArrayAdapter<String> adapter = new ArrayAdapter<String>(v.getContext(),android.R.layout.simple_list_item_1,test);
-       //Works with String, not with EditText
-      // l.setAdapter(adapter);
+        Button searchWithMan = (Button) v.findViewById(R.id.search_man) ;
+        searchWithMan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), MapsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
         return v;
     }
 
