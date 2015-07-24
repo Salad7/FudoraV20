@@ -63,7 +63,6 @@
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:text="@string/manual_search"
-              android:drawableLeft="@drawable/bino"
               android:id="@+id/search_man"
               android:layout_above="@+id/linearLayout"
               android:layout_alignRight="@+id/manual_txt"

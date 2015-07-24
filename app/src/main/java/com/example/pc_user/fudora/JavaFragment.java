@@ -34,9 +34,9 @@ public class   JavaFragment extends Fragment {
     RelativeLayout manLayout,voiceLayout;
     Button voiceSearch;
     Button manualSearch;
-    Button searchWithMan;
     TextView manual_text_hint;
     TextView text;
+    Button searchWithMan;
     ImageView imageView;
 
     Spinner spinner;
@@ -50,6 +50,10 @@ public class   JavaFragment extends Fragment {
         voiceLayout = (RelativeLayout) v.findViewById(R.id.voiceLayout);
 
 
+        //l = (ListView) v.findViewById(R.id.manualListView);
+//        words[0] = ed; Crash here
+//        words[1] = ed2; Crash here
+//        words[2] = ed3; Crash here
 
         voiceSearch = (Button) v.findViewById(R.id.switch_voice);
         voiceSearch.setOnClickListener(new View.OnClickListener() {
@@ -94,7 +98,6 @@ public class   JavaFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
 
         return v;
     }

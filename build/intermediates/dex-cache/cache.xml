@@ -9,6 +9,13 @@
         <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-c08762c38e0a433d6fb0e7a1b674e3e7cfeb6bf6.jar" />
     </item>
     <item
+        jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-6d8c3df2fd61b75587512d9bafe6c771c527b8c2.jar" />
+    </item>
+    <item
         jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -16,11 +23,25 @@
         <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-3febb53cc86825b2d7cd1660678660614ece7a26.jar" />
     </item>
     <item
-        jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
-        <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-6d8c3df2fd61b75587512d9bafe6c771c527b8c2.jar" />
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-6cc97ffc7d45dbec7ae3bea977fc3491f2090e8d.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-000f1e34b23f0e9b724fc09da9f10bc6985129ff.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-6cfc215ccb83d95fd1740769589417c2184b3b6b.jar" />
     </item>
     <item
         jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
@@ -30,11 +51,11 @@
         <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-ec816df0ac0610f9482f7c869c86919607021e34.jar" />
     </item>
     <item
-        jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="055783146ba9654a725442563be78cad303aad1f">
-        <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-b840f09740131193302ab05220b43d74482fba8a.jar" />
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-4222e4cf24339f0b6b362af4d56ebc55e68d895d.jar" />
     </item>
     <item
         jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
@@ -44,18 +65,18 @@
         <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-f6f701ab16a99b1792fc4cfca3b5778f94180a8f.jar" />
     </item>
     <item
-        jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
-        <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-4222e4cf24339f0b6b362af4d56ebc55e68d895d.jar" />
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-b840f09740131193302ab05220b43d74482fba8a.jar" />
     </item>
     <item
-        jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
-        <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-7dd8a8e68b39ccc09e6f93a7f17c91ecb358b0a7.jar" />
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-5ed76a7b39c9b0b1a94880bb69b94089967e4364.jar" />
     </item>
     <item
         jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
@@ -65,11 +86,32 @@
         <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-368735e07ffe8bed4d69a387c4041f947d27a992.jar" />
     </item>
     <item
-        jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
-        <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-10615e639d6ac87dc9ba7b21cb69fb8ea05a5ec9.jar" />
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-7dd8a8e68b39ccc09e6f93a7f17c91ecb358b0a7.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-cca48bb96a9a91daca344f1123fc746a4a838299.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-c90770629ba86f167b023cdf2dc09e9b8fdce8eb.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-c170bd8bfe5291e6f91ca2393402d7c2a2dbc32d.jar" />
     </item>
     <item
         jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
@@ -79,6 +121,13 @@
         <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-5dc0b401b54cac0fe40d2806f8d638d6d4970aca.jar" />
     </item>
     <item
+        jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-10615e639d6ac87dc9ba7b21cb69fb8ea05a5ec9.jar" />
+    </item>
+    <item
         jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -86,11 +135,25 @@
         <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-4a3af73a0e439735c7161ccc4966166875c33895.jar" />
     </item>
     <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-9521f9cf65443f1f159605b713cd80ffae786b18.jar" />
+    </item>
+    <item
         jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
         <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-043aea6301e95e0af6d60872a7cd1e47e491356d.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-6e7a7b4a4e75b468c78937986bf42c9ebf517cf5.jar" />
     </item>
     <item
         jar="C:\Users\PC-user\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
@@ -121,11 +184,74 @@
         <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-aa7ace9f129117487bed76fe6c851db250d6db3f.jar" />
     </item>
     <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-4651c9754b665a30de5695e4a1ca54efa7c98799.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-8a31727ba0b2877e76036953072d473b25fbdb01.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-593f1168fd306887b899c47890849b36a82690ac.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-12a394456ef441f51d09129d195586b89ee41fb8.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-8f245605061b9b88ddd430768696d451d4d8a3a3.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-a8b249a96a55ac16361abfc48d9ef79f7d37c6a4.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-58b212a762927228359e6c2fc02aee775f3d9d62.jar" />
+    </item>
+    <item
         jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
         <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-9701788e3328628f83bddba434b4d24d13d08172.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-4bca665cae30cc726cb42d29b0b6ce5c1ea60a56.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-63c80560ad698e64e557238da7546ee63dbd451d.jar" />
     </item>
     <item
         jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
@@ -156,11 +282,39 @@
         <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-ce87f1d3ef150dd147072449488a93cd10236a2b.jar" />
     </item>
     <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-79fc13b7cc0ccba80a0d9908cf335b7b37d7dc5e.jar" />
+    </item>
+    <item
         jar="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
         <dex dex="C:\Users\PC-user\AndroidStudioProjects\Fudora\app\build\intermediates\pre-dexed\debug\classes-329d58d253f805a1ee902be5075e5d0dfc64c60b.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-2e2fe5ae9b96dccfc69a1f5ba01ccd8984a511d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-eb6de2ced965796ec65fc6dcec6cdd3ff6a4f5ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="C:\Users\PC-user\Desktop\FudoraV20-master\app\build\intermediates\pre-dexed\debug\classes-2dc6158d557b8c9808ee52b5be43ad7d043906e2.jar" />
     </item>
 
 </items>

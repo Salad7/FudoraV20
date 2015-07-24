@@ -6,7 +6,6 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 
 /**
@@ -18,18 +17,8 @@ public class FragmentAppend extends Fragment {
 
 public View onCreateView (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
 {
-
     View v;
     v =inflater.inflate(R.layout.fragment_append,container,true);
-
-    Button clickme = (Button) v.findViewById(R.id.button);
-
-    clickme.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-
-        }
-    });
 //    EditText title = (EditText) getView().findViewById(R.id.editText);
 //
 //    bundle.putInt(title.toString(),1);
