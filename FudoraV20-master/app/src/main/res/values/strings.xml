@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Fudora</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!--<string-array name="total_users">
+        <string name="one_users">1</string>
+        <string name="two_users">2</string>
+        <string name="three_users">3 </string>
+        <string name="four_users">4</string>
+        <string name="five_users">5</string>
+        <string name="six_users">6</string>
+    </string-array>
+
+    !-->
+    <string name="search">Search!</string>
+    <string name="title">Enter a title for your event</string>
+    <string name="purpose">A brief explanation of your event</string>
+    <string name="attire">What is the attire?</string>
+    <string name="date">Date</string>
+    <string name="attendence">How many people are you expecting?</string>
+    <string name="address">Where is the event held</string>
+    <string name="cost">What is the cost of attendence</string>
+    <string name="preview">What types of food will be served? (up to 3)</string>
+    <string name="phone">How can you be reached for further questions?</string>
+    <string name="commit">Commit a venue</string>
+    <string name="title_label">Title</string>
+    <string name="purpose_label">Purpose</string>
+    <string name="attire_label">Attire</string>
+    <string name="attendence_label">Attendence</string>
+    <string name="address_label">Address</string>
+    <string name="cost_label">Cost</string>
+    <string name="preview_label">Preview</string>
+    <string name="phone_label">Phone</string>
+    <string name="created_commit">Created commit</string>
+    <string name="submit_btn">Submit</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="quick_start">Quick Start Search!</string>
+    <string name="into_toast">Enter up to four words to search for</string>
+    <string name ="voice_search">Voice</string>
+    <string name ="manual_search">Search</string>
+    <string name ="man_txt">Manual Search</string>
+    <string name="b_login">Log In</string>
+    <string name="b_signup">Sign Up</string>
+    <string name="t_username">email@uncc.edu</string>
+    <string name="t_password">Password</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="t_birthyear">Birthyear</string>
+    <string name="t_zipcode">Zipcode</string>
+    <string name="r_male">Male</string>
+    <string name="r_female">Female</string>
+    <string name="c_term_agreement">Terms and Conditions</string>
+    <string name="title_of_signup">Name of the App</string>
+    <string name="b_register">Register</string>
+    
+    <string-array name="Spinner_Items">
+        <item>Turkey</item>
+        <item>Shrimp</item>
+        <item>Pasta</item>
+
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+
+
+</resources>

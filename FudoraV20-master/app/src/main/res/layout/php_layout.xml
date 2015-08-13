@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/phpbackgroundtwo"
+    android:layout_height="fill_parent"
+    android:theme="@android:style/Theme.Holo">
+
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_centerVertical="true"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView">
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/relview"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center"
+            android:typeface="serif"
+            android:textColor="#FFFF"
+            android:text="@string/title_label"
+            android:id="@+id/title_txt" />
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:background="@drawable/roundedrect_style"
+            android:textColor="#000000"
+            android:theme="@android:style/Theme.Holo"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:layout_gravity="center"
+            android:typeface="serif"
+            android:id="@+id/titleid" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:typeface="serif"
+            android:textColor="#FFFF"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingTop="10dp"
+            android:text="@string/purpose_label"
+            android:id="@+id/purpose_txt" />
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:background="@drawable/roundedrect_style"
+            android:typeface="serif"
+            android:imeOptions="actionDone"
+            android:id="@+id/purposeid" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:typeface="serif"
+            android:textColor="#FFFF"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/address_label"
+            android:id="@+id/address_txt" />
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:inputType="textPostalAddress"
+            android:imeOptions="actionDone"
+            android:typeface="serif"
+            android:textColor="#000000"
+            android:background="@drawable/roundedrect_style"
+            android:gravity="center_horizontal"
+            android:ems="10"
+            android:id="@+id/addressid" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:typeface="serif"
+            android:textColor="#FFFF"
+            android:layout_gravity="center"
+            android:text="@string/date"
+            android:id="@+id/date_txt"/>
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="30dp"
+            android:inputType="date"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:imeOptions="actionDone"
+            android:background="@drawable/roundedrect_style"
+            android:ems="10"
+            android:id="@+id/dateid" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="30dp"
+        android:gravity="center_horizontal"
+        android:typeface="serif"
+        android:text="@string/submit_btn"
+        android:background="#000000"
+        android:textColor="#FFD700"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/button"
+        android:layout_below="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp" />
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/fourninerlogophp"
+        android:layout_above="@+id/scrollView"
+        android:layout_centerHorizontal="true"></RelativeLayout>
+
+</RelativeLayout>
